@@ -73,7 +73,7 @@ function init(){
             LR.images[i].caption = "";
         }
         // Create the individual thumbnail partial
-        LR.images[i].$thumbnail = $('<div class="thumbnail" data-large-img="images/large/'+ LR.images[i].exportFilename +'.jpg" data-id="ID'+ LR.images[i].id +'" data-title="' + LR.images[i].title + '" data-caption="' + LR.images[i].caption + '"><img class="thumb-img" src="" /></div>');
+        LR.images[i].$thumbnail = $('<div class="thumbnail" data-large-img="https://raw.githubusercontent.com/HoangTheBoss/photos/main/blingbling/teachersday2020/images/large/'+ LR.images[i].exportFilename +'.jpg" data-id="ID'+ LR.images[i].id +'" data-title="' + LR.images[i].title + '" data-caption="' + LR.images[i].caption + '"><img class="thumb-img" src="" /></div>');
         LR.images[i].$thumbnail.data("index", i);
         // Isolate the actual thumbnail image
         LR.images[i].$thumbnailImg = $(LR.images[i].$thumbnail.find("img")[0]);
@@ -125,7 +125,7 @@ function init(){
             );
             LR.images[i].$thumbnailImg.attr(
                 "src",
-                "images/thumbnails/" + LR.images[i].exportFilename + ".jpg"
+                "https://raw.githubusercontent.com/HoangTheBoss/photos/main/blingbling/teachersday2020/images/thumbnails/" + LR.images[i].exportFilename + ".jpg"
             );
             _lastLoadedThumbIndex = LR.images[i].index;
         }
