@@ -159,7 +159,7 @@ function init(){
         );
         LR.images[0].$thumbnailImg.attr(
             "src",
-            "images/thumbnails/" + LR.images[0].exportFilename + ".jpg"
+            "https://raw.githubusercontent.com/HoangTheBoss/photos/main/blingbling/teachersday2020/images/thumbnails/" + LR.images[0].exportFilename + ".jpg"
         );
         _$lastLoadedThumb = LR.images[0].$thumbnail;
         _lastLoadedThumbIndex = LR.images[0].index;
@@ -190,7 +190,7 @@ function init(){
             );
             LR.images[i].$thumbnailImg.attr(
                 "src",
-                "images/thumbnails/" + LR.images[i].exportFilename + ".jpg"
+                "https://raw.githubusercontent.com/HoangTheBoss/photos/main/blingbling/teachersday2020/images/thumbnails/" + LR.images[i].exportFilename + ".jpg"
             );
             _$lastLoadedThumb = LR.images[i].$thumbnail;
             _lastLoadedThumbIndex = LR.images[i].index;
@@ -293,7 +293,7 @@ function init(){
             );
             LR.images[i].$thumbnailImg.attr(
                 "src",
-                "images/thumbnails/" + LR.images[i].exportFilename + ".jpg"
+                "https://raw.githubusercontent.com/HoangTheBoss/photos/main/blingbling/teachersday2020/images/thumbnails/" + LR.images[i].exportFilename + ".jpg"
             );
             _$lastLoadedThumb = LR.images[i].$thumbnail;
             _lastLoadedThumbIndex = LR.images[i].index;
